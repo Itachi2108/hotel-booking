@@ -1,0 +1,150 @@
+main{
+    padding: 60px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #e0e0e0;
+}
+
+main > ul > li {
+    list-style: none;
+    color: black;
+}
+.mv {
+    margin-left: 10px;
+}
+
+
+
+
+main > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.image{
+    height: 300px;
+    width: 300px;
+}
+.social-logo{
+    height: 20px;
+    width: 22px;
+}
+.hotel-listing{
+    display: flex;
+    margin: 2%;
+    background-color: lightgray;
+    width: auto;
+    height: auto;
+}
+.hotel-listing > img{
+    height: 200px;
+    width: 250px;
+}
+.hotel-listing > a > img{
+    height: 200px;
+    width: 250px;
+}
+#list-view > .hl {
+    text-decoration: none;
+    color: black;
+}
+.hotel-listing:hover{
+    background-color: rosybrown;
+}
+.content-wrap {
+    margin: 4%;
+    
+}
+
+#list-view{
+    padding-bottom: 80px;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 80px;
+    row-gap: 20px;
+}
+
+#pills-home{
+    padding-bottom: 80px;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 80px;
+    row-gap: 20px;
+}
+
+#pills-home > .hl {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*Header*/
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+header > .header_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > .header_wrap > a.login {
+    margin: 0 2%;
+    text-decoration: none;
+    color: black;
+}
+
+header > .header_wrap > a {
+    margin-left: 1%;
+}
+
+
+/*Footer*/ 
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.footer-wrap{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact > a {
+    text-decoration: none;
+    color: black;
+}
+
+p.copyright { 
+    font-size: 10px;
+    margin-bottom: 0;
+}
+
+.contact { 
+    margin-left: 2%;
+}
+
+.social-links{
+    margin-right: 2%;
+}
+
+.footer-gap{
+    height: 50px;
+    width: 100%;
+}
+

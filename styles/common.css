@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #e0e0e0;
+}
+.main-container{
+    height: auto;
+    width: auto;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+}
+.social-logo{
+    height: 20px;
+    width: 22px;
+}
+header{
+    background-color: rosybrown;
+}
+footer{
+    background-color: rosybrown;
+}
+
+/*MODAL*/
+.modal-form{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
